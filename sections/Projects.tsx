@@ -11,6 +11,7 @@ export interface Props {
 }
 
 export default function Projects({ title, projects }: Props) {
+  console.log(title, projects)
   return (
     <div class="flex justify-center items-center w-full pt-20 pb-32 text-2xl ">
       <div class="flex flex-col max-w-[800px]">

@@ -79,6 +79,7 @@
               "$live/sections/PageInclude.tsx",
               "$live/sections/Slot.tsx",
               "$live/sections/UseSlot.tsx",
+              "deco-sites/landingpage/sections/informations.tsx",
               "deco-sites/landingpage/sections/Intro.tsx",
               "deco-sites/landingpage/sections/Projects.tsx",
               "deco-sites/landingpage/sections/Theme.tsx",
@@ -7697,6 +7698,19 @@
       ],
       "title": "deco-cx/live/sections/UseSlot.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9pbmZvcm1hdGlvbnMudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "deco-sites/landingpage/sections/informations.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9zdGQvY29tcG9uZW50cy90eXBlcy50cw==@Image": {
       "type": "string",
       "format": "image-uri",
@@ -10944,6 +10958,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9pbmZvcm1hdGlvbnMudHN4": {
+      "title": "deco-sites/landingpage/sections/informations.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9pbmZvcm1hdGlvbnMudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/landingpage/sections/informations.tsx"
+          ],
+          "default": "deco-sites/landingpage/sections/informations.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9JbnRyby50c3g=": {
       "title": "deco-sites/landingpage/sections/Intro.tsx",
       "type": "object",
@@ -12207,6 +12242,9 @@
         },
         {
           "$ref": "#/definitions/JGxpdmUvc2VjdGlvbnMvVXNlU2xvdC50c3g="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9pbmZvcm1hdGlvbnMudHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9sYW5kaW5ncGFnZS9zZWN0aW9ucy9JbnRyby50c3g="
